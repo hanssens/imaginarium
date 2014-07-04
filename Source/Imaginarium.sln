@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Imaginarium", "Imaginarium\Imaginarium.csproj", "{7A842CC8-6ED9-4CD9-BB8F-451D62E183DB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Imaginarium.Tests", "Imaginarium.Tests\Imaginarium.Tests.csproj", "{F4FD535A-3A2B-4404-8AF8-04FA9829CB34}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -16,6 +18,12 @@ Global
 		{7A842CC8-6ED9-4CD9-BB8F-451D62E183DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A842CC8-6ED9-4CD9-BB8F-451D62E183DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A842CC8-6ED9-4CD9-BB8F-451D62E183DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4FD535A-3A2B-4404-8AF8-04FA9829CB34}.AppStore|Any CPU.ActiveCfg = Release|Any CPU
+		{F4FD535A-3A2B-4404-8AF8-04FA9829CB34}.AppStore|Any CPU.Build.0 = Release|Any CPU
+		{F4FD535A-3A2B-4404-8AF8-04FA9829CB34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4FD535A-3A2B-4404-8AF8-04FA9829CB34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4FD535A-3A2B-4404-8AF8-04FA9829CB34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4FD535A-3A2B-4404-8AF8-04FA9829CB34}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Imaginarium\Imaginarium.csproj
