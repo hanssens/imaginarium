@@ -73,6 +73,7 @@ namespace Imaginarium
 		private BrowseData browseData = new BrowseData();
 
 		#region interface actions
+
 		partial void SliderChanged (NSSlider sender)
 		{
 			browserView.ZoomValue = sender.FloatValue;
