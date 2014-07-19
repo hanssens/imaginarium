@@ -13,7 +13,7 @@
 	<key>LSMinimumSystemVersion</key>
 	<string>10.8</string>
 	<key>NSMainNibFile</key>
-	<string>MainWindow</string>
+	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 	<key>CFBundleShortVersionString</key>

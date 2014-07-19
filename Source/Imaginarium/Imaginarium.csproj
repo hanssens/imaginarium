@@ -70,6 +70,7 @@
     <Folder Include="Application\" />
     <Folder Include="Application\Models\" />
     <Folder Include="Application\Logic\" />
+    <Folder Include="Application\UI\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainWindow.cs" />
@@ -84,6 +85,9 @@
     </Compile>
     <Compile Include="Application\Models\Picture.cs" />
     <Compile Include="Application\Logic\PictureCatalog.cs" />
+    <Compile Include="Application\UI\BrowseData.cs" />
+    <Compile Include="Application\UI\BrowseItem.cs" />
+    <Compile Include="Application\UI\DragDelegate.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="MainWindow.xib" />
