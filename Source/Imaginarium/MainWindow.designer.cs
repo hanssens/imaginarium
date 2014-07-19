@@ -12,9 +12,8 @@ namespace Imaginarium
 	[Register ("MainWindowController")]
 	partial class MainWindowController
 	{
-		//[Outlet]
-		//MonoMac.ImageKit.IKImageBrowserView browserView { get; set; }
-		private global::MonoMac.ImageKit.IKImageBrowserView _browserView;
+		[Outlet]
+		MonoMac.ImageKit.IKImageBrowserView browserView { get; set; }
 
 		[Action ("AddButtonClicked:")]
 		partial void AddButtonClicked (MonoMac.AppKit.NSButton sender);
@@ -24,19 +23,7 @@ namespace Imaginarium
 
 		[Action ("SliderChanged:")]
 		partial void SliderChanged (MonoMac.AppKit.NSSlider sender);
-
-		[Connect("browserView")]
-		private global::MonoMac.ImageKit.IKImageBrowserView browserView {
-			get {
-				this._browserView = ((global::MonoMac.ImageKit.IKImageBrowserView)(this.GetNativeField("browserView")));
-				return this._browserView;
-			}
-			set {
-				this._browserView = value;
-				this.SetNativeField("browserView", value);
-			}
-		}
-
+		
 		void ReleaseDesignerOutlets ()
 		{
 			if (browserView != null) {
